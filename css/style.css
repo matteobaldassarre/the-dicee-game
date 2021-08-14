@@ -1,0 +1,99 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F2CBB6;
+}
+
+/* General Styles */
+h1 {
+    font-family: 'Lobster', Arial, Helvetica, sans-serif;
+    font-size: 6rem;
+    color: #A68B7C;
+    text-shadow: 5px 0 #66554D;
+}
+
+h3 {
+    font-family: 'Indie Flower', Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: #A68B7C;
+}
+
+
+/* Containers */
+.wrapper {
+    width: 90%;
+    margin: 3% auto;
+    text-align: center;
+    position: relative;
+}
+
+
+
+/* Page Style */
+#welcome {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5rem;
+    color: #66554D;
+}
+
+.player-one, .player-two {
+    width: 50%;
+    display: inline-block;
+}
+
+.player-two {
+    float: right;
+}
+
+.players {
+    padding-top: 5%;
+}
+
+.players img {
+    margin-top: 30px;
+    width: 100px;
+}
+
+.throw {
+    padding-top: 10%;
+}
+
+.throw button {
+    background-color: #A68B7C;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #F2CBB6;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border: 0px none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.throw button:hover {
+    transform: scale(1.1);
+}
+
+.copyright {
+    font-size: 0.8rem;
+    color: #A68B7C;
+    font-family: sans-serif;
+    display: block;
+    margin-top: 10%;
+}
+
+
+/* Media Queries */
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 4rem;
+    }
+}

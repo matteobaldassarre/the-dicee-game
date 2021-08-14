@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>The Dicee Game</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&display=swap" rel="stylesheet">
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Page Wrapper -->
+    <div class="wrapper">
+
+        <!-- Welcome Message -->
+        <h2 id="welcome">The Dicee Game</h2>
+
+        <!-- Heading -->
+        <h1 id="result">Throw to Start</h1>
+
+        <div class="players">
+            <!-- Player One -->
+            <div class="player-one">
+                <h3>Player One</h3>
+                <img src="img/question-mark.png" alt="dice-img">
+            </div>
+            
+            <!-- Player Two -->
+            <div class="player-two">
+                <h3>Player Two</h3>
+                <img src="img/question-mark.png" alt="dice-img">
+            </div>
+        </div>
+        
+        <div class="throw">
+            <button onclick="startGame();" id="throw-dicee">Throw</button>
+        </div>
+
+        <span class="copyright" >© 2021 Matteo Baldassarre</span>
+    </div>
+    <!-- End Page Wrapper -->
+
+    <!-- GSAP Cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <!-- Animations -->
+    <script src="js/animations.js"></script>
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
