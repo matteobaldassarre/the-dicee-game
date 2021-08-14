@@ -123,3 +123,13 @@ h3 {
         transition: none;
     }
 }
+
+
+/* Readme CSS */
+.play-game {
+    background-color: #A68B7C;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+}
