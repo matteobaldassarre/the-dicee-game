@@ -67,6 +67,7 @@ h3 {
 }
 
 .throw button {
+    opacity: 0;
     background-color: #A68B7C;
     padding: 10px 20px;
     border-radius: 5px;

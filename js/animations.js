@@ -17,4 +17,4 @@ timeline.from(".player-two", {duration: 1.5, opacity: 0, ease: 'expo', x: -300})
 
 
 // Throw button fade in
-timeline.from("#throw-dicee", {duration: 0.5, opacity: 0});
+timeline.to("#throw-dicee", {duration: 0.5, opacity: 1});

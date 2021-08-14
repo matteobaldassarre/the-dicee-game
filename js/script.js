@@ -41,7 +41,7 @@ function startGame() {
 // Making the title fade after the result
 function fadeResult() {
     gsap.from("h1", {
-        duration: 1,
+        duration: 1.2,
         opacity: 0,
     });
 }
