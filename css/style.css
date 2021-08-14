@@ -97,4 +97,20 @@ h3 {
     h1 {
         font-size: 4rem;
     }
+
+    #welcome {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+    }
+
+    .throw button:hover {
+        transform: none;
+    }
+
+    .throw button {
+        transition: none;
+    }
 }
