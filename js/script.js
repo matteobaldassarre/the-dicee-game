@@ -34,15 +34,18 @@ function startGame() {
         resultMessage.innerHTML = 'Player Two Wins!';
     }
 
-    document.getElementById('throw-dicee').innerHTML = 'Throw Again';
+    document.getElementById('throw-dicee').innerHTML = 'Roll Again';
 }
-
 
 // Making the title fade after the result
 function fadeResult() {
-    gsap.from("h1", {
-        duration: 1.2,
+    var tl = gsap.timeline();
+
+    tl.set("h1", {
         opacity: 0,
+    }).to("h1", {
+        duration: 1.2,
+        opacity: 1
     });
 }
 
